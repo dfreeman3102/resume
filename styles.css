@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(52, 189, 252);
+    color:rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    margin: none;
+    padding: 10px;
+    color:white;
+}
+h1{
+    font-size: 35px;
+}
+img{
+    zoom:30%;
+    position: absolute;
+    top:75px;
+    right:100px;
+    width:auto;
+    height:500px;
+    border-radius: 25%;
+}
+a{
+    color:rgb(179, 179, 179);
+}
+.skills{
+    background-color: rgb(100, 100, 100);
+    margin:none;
+    padding:20px;
+    width:35%;
+    font-size: 20px;
+}
+.intro{
+    position:absolute;
+    right:175px;
+    top:200px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid black 2px;
+    border-radius: 5%;
+    padding-bottom: 5px;
+}
+.professional-experience{
+    position:absolute;
+    right:175px;
+    top:275px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid black 2px;
+    border-radius: 1%;
+    padding-bottom: 5px;
+    width:50%;
+}
+.education{
+    position:absolute;
+    right:175px;
+    top:700px;
+    font-size: 20px;
+    text-align: center;
+    width:50%;
+}
+.projects{
+    background-color: rgb(100, 100, 100);
+    margin:none;
+    padding:20px;
+    width:35%;
+    height:450px;
+    font-size: 20px;
+}

@@ -5,65 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Resume</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
         <main>
             <header>
-                <h1>David Michael Freeman</h1>
-            <section class="contact-info">
-                <div class="phone">Phone: (336) 425-4038</div>
-                <div class="email">Email: davidfreeman3102@gmail.com</div>
-                <div class="linkedin">Linkedin: <a href="https://www.linkedin.com/in/david-freeman-536486294/">
-                    https://www.linkedin.com/in/david-freeman-536486294</a> </div>
-                <div class="address">Location: Lexington, NC</div>
-            </section> 
-            </header>
-            <section class="profile-pic">
                 <img src="profile pic.jpg">
-            </section>
-            <section class="skills">
-                <h2>Skills</h2>
-                    <ul class="skill-list">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>SQL</li>
-                      <li>Python</li>
-                      <li>Git/GitHub</li>
-                    </ul>
-            </section>
-            <section class="introduction">
-                <p class="intro">Highly determined and motivated individual with a growing enthusiasm for <br>software development, 
+                <h1>David M. Freeman</h1>
+            <section class="contact-info">
+                <div class="phone">
+                    <div class="interest-item">
+                    <i data-feather="phone"></i>
+                (336) 425-4038
+            </div>
+            </div>
+                <div class="email">
+                    <div class="interest-item">
+                    <i data-feather="mail"></i>davidfreeman3102@gmail.com
+                </div>
+                </div>
+                <div class="linkedin">
+                    <div class="interest-item">
+                    <i data-feather="linkedin"></i> 
+                <a href="https://www.linkedin.com/in/david-freeman-536486294/">
+                    https://www.linkedin.com/in/david-freeman-536486294</a>
+                </div> 
+                </div>
+                <div class="address">
+                    <div class="interest-item">
+                    <i data-feather="map-pin"></i>
+                 Lexington, NC</div></div>
+            </section> 
+           
+            </header>
+            <div class="main-info">
+                <section class="skills">
+                    <h2>Skills</h2>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>Git/GitHub</li>
+                        </ul>
+                </section>
+                 <section class="introduction">
+                <p class="intro">Highly determined and motivated individual with growing enthusiasm for software development, 
                     who seeks hands-on experience learning from those around him.</p>
-            </section>
-            <section class="professional-experience">
-                <h2>Work Experience</h2>
-                <div class="innospec">
-                    <p>09/2022 - Current <br>
-                        <b>Receiving Warehouse Associate - <i>Innospec Active Chemicals</i></b>, Salibury, NC<br></p>
-                        <ul>
-                            <li>Ensures accuracy of incoming shipments and inputs data into receiving database.</li>
-                            <li>Coordinates with multiple teams to ensure proper product handling.</li>
-                            <li>Aids fellow collegues in preparing outbound products.</li>
-                        </ul>
-                </div>
-                <div class="express-oil">
-                    <p>05/2020 - 09/2022 <br>
-                        <b>Assistant Manager - <i>Express Oil Change & Tire Engineers</i></b>, Clemmons, NC<br></p>
-                        <ul>
-                            <li>Provided payroll service for employees at multiple locations.</li>
-                            <li>Confirmed adequate workforce was supplied at multiple locations.</li>
-                            <li>Regularly handled opening and closing operations.</li>
-                        </ul>
-                </div>
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                    <ul>
-                        <li><b>Coding Bootcamp - <i>University of North Carolina at Chapel Hill</b> <br>- Expected Completion July, 2024</i></li>
-                        <li><b>Certificate in Automotive Systems Technology</b> <br>- <i>Davidson County Community College - June, 2020</i></li>
-                        <li><b>Certificate in Welding Technology</b> <br>- <i>Davidson County Community College - June, 2020</i></li>
-                    </ul>
             </section>
             <section class="projects">
                 <h2>Projects</h2>
@@ -72,7 +61,58 @@
                         <li>Building a full-stack app that assists individuals in properly caring for their vehicles.</li>
                     </ul>
             </section>
+            <section class="education">
+                <h2>Education</h2>
+                    <ul>
+                        <li><b>Coding Bootcamp</b> - <i>University of North Carolina at Chapel Hill <br>- Expected Completion July, 2024</i></li>
+                        <li><b>Certificate in Automotive Systems Technology</b> <br>- <i>Davidson County Community College - June, 2020</i></li>
+                        <li><b>Certificate in Welding Technology</b> <br>- <i>Davidson County Community College - June, 2020</i></li>
+                    </ul>
+            </section>
+            <section class="interests">
+                <h2>Interests</h2>
+                <div class="interest">
+                    <div class="interest-item">
+                        <i data-feather="monitor"></i>
+                        <span class="gaming">Computer Gaming </span>
+                    </div>
+                    <div class="interest">
+                        <i data-feather="smartphone"></i>
+                       <span class="tech">New Technology </span>
+                    </div>
+                    <div class="interest">
+                        <i data-feather="tool"></i>
+                        <span class="auto">Automotive Tinkering</span>
+                    </div>
+                </div>
+            </section>
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <div class="innospec">
+                    <p>09/2022 - Current <br>
+                        <b>Receiving Warehouse Associate</b> - <i>Innospec Active Chemicals</i>, Salibury, NC<br></p>
+                        <ul>
+                            <li class="exp">Ensures accuracy of incoming shipments and inputs data into receiving database.</li>
+                            <li class="exp" >Coordinates with multiple teams to ensure proper product handling.</li>
+                            <li class="exp">Aids fellow collegues in preparing outbound products.</li>
+                        </ul>
+                </div>
+                <div class="express-oil">
+                    <p>05/2020 - 09/2022 <br>
+                        <b>Assistant Manager</b> - <i>Express Oil Change & Tire Engineers</i>, Clemmons, NC<br></p>
+                        <ul>
+                            <li class="exp">Provided payroll service for employees at multiple locations.</li>
+                            <li class="exp">Confirmed adequate workforce was supplied at multiple locations.</li>
+                            <li class="exp">Regularly handled opening and closing operations.</li>
+                        </ul>
+                </div>
+            </section>
+            
+            </div>
         </main>
+        <script>
+            feather.replace();
+          </script>
     </body>
     <footer>
 

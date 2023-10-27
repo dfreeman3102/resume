@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
 html{
     background-color: rgb(52, 189, 252);
     color:rgb(0, 0, 0);
@@ -5,67 +10,49 @@ html{
 }
 header{
     background-color: rgb(41, 41, 41);
-    text-align: center;
-    margin: none;
-    padding: 10px;
     color:white;
-}
-h1{
-    font-size: 35px;
-}
-img{
-    zoom:30%;
-    position: absolute;
-    top:75px;
-    right:100px;
-    width:auto;
-    height:500px;
-    border-radius: 25%;
-}
-a{
-    color:rgb(179, 179, 179);
-}
-.skills{
-    background-color: rgb(100, 100, 100);
-    margin:none;
-    padding:20px;
-    width:35%;
-    font-size: 20px;
+    width:100%;
+    margin:0 auto;
+    padding: 1rem;
+    text-align: center;
 }
 .intro{
-    position:absolute;
-    right:175px;
-    top:200px;
-    font-size: 20px;
+    padding-top: 2rem;
     text-align: center;
-    border-bottom: solid black 2px;
-    border-radius: 5%;
-    padding-bottom: 5px;
 }
-.professional-experience{
-    position:absolute;
-    right:175px;
-    top:275px;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: solid black 2px;
-    border-radius: 1%;
-    padding-bottom: 5px;
-    width:50%;
+img{
+    border-radius: 50%;
+    max-width: 250px;
 }
-.education{
-    position:absolute;
-    right:175px;
-    top:700px;
-    font-size: 20px;
-    text-align: center;
-    width:50%;
+.main-info{
+    max-width: 1000px;
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
 }
-.projects{
-    background-color: rgb(100, 100, 100);
-    margin:none;
-    padding:20px;
-    width:35%;
-    height:450px;
-    font-size: 20px;
+@media only screen and (max-width:768px){
+   html{
+    width:100%;
+    grid-template-columns: 1fr;
+    gap: 7rem;
+}
+}
+h1{
+    font-weight: 200;
+    color:rgb(52, 189, 252)
+}
+h2{
+    font-size: medium;
+}
+a{
+    color:rgb(52, 189, 252);
+}
+span{
+    padding:1rem;
+}
+.exp{
+    font-size: 12px;
 }
